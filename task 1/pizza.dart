@@ -38,12 +38,23 @@ void main() {
 
     // offers 
     String offer = "";
-    if (pizzaSize == "Small" && quantity >= 4) {
-      offer = "Congrats! You get 1 litre Coke and 1 ice cream for free.";
-    } else if (pizzaSize == "Medium" && quantity >= 3) {
+    if (pizzaSize == "Small" && quantity <= 4) {
+      offer = "Congrats! You get 1/2 litre Coke and 1 ice cream for free.";
+    } 
+    else if (pizzaSize == "Small" && quantity >= 4){
+       offer = "Congrats! You get 1 litre Coke and 2 brownies for free.";
+    }
+    else if (pizzaSize == "Medium" && quantity <= 3) {
+      offer = "Great! You got 1/2 litres Coke and 2 ice creams for free.";
+    } 
+     else if (pizzaSize == "Medium" && quantity >= 3) {
       offer = "Great! You got 2 litres Coke and 2 ice creams for free.";
-    } else if (pizzaSize == "Large" && quantity >= 2) {
+    } 
+    else if (pizzaSize == "Large" && quantity <= 2) {
       offer = "Hurrayy! You got 1 family pack ice cream for free.";
+    }
+     else if (pizzaSize == "Large" && quantity >= 2) {
+      offer = "Hurrayy! You got 1 family pack ice cream and 2 brownies  for free.";
     }
    // bill creation 
     double currentBill = quantity * pricePerPizza;
