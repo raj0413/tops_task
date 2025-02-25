@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram/new_list.dart';
 
 class InstaList extends StatefulWidget {
   const InstaList({super.key});
@@ -65,7 +66,9 @@ class _InstaListState extends State<InstaList> {
             Icon(Icons.favorite_border, color: Colors.white,),SizedBox(
               width: 10,
             ),
-            Icon(Icons.near_me_sharp,color: Colors.white,)
+            IconButton(onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => MessageList(),));
+            }, icon: Icon(Icons.near_me_sharp,color: Colors.white,))
           ],
         ),backgroundColor: Colors.black,
       ),
