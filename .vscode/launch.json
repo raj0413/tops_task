@@ -1,0 +1,88 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "gmail",
+            "cwd": "gmail",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "gmail (profile mode)",
+            "cwd": "gmail",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "gmail (release mode)",
+            "cwd": "gmail",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "instagram",
+            "cwd": "instagram",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "instagram (profile mode)",
+            "cwd": "instagram",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "instagram (release mode)",
+            "cwd": "instagram",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "new_design",
+            "cwd": "new_design",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "new_design (profile mode)",
+            "cwd": "new_design",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "new_design (release mode)",
+            "cwd": "new_design",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "row_column",
+            "cwd": "task\\row_column",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "row_column (profile mode)",
+            "cwd": "task\\row_column",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "row_column (release mode)",
+            "cwd": "task\\row_column",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
