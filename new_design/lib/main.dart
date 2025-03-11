@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:new_design/form.dart';
+import 'package:new_design/gridview.dart';
 import 'package:new_design/homepage.dart';
+import 'package:new_design/login.dart';
 import 'package:new_design/second_page.dart';
 
 void main() {
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: SecondPage()
+      home: FormPage()
     );
   }
 }
