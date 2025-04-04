@@ -130,11 +130,12 @@ class _FormPageState extends State<FormPage> {
                   Text('Other'),
                 ],
               ),
+              Text("Hobbies", style: TextStyle(fontSize: 20),),
               Row(
                 children: [
                   Checkbox(
                     activeColor: Colors.black,
-                    value: checkBox1,
+                    value: checkBox1 ,
                     onChanged: (value) {
                       setState(() {
                         checkBox1 = value!;
@@ -143,16 +144,12 @@ class _FormPageState extends State<FormPage> {
                   ),
                   SizedBox(width: 10),
                   Text(
-                    'Agree',
+                    'Coding',
                     style: TextStyle(
                       color: const Color.fromARGB(255, 64, 63, 63),
                     ),
                   ),
                   SizedBox(width: 5),
-                  Text(
-                    'Terms & conditions',
-                    style: TextStyle(fontWeight: FontWeight.bold),
-                  ),
                 ],
               ),
               ElevatedButton(
