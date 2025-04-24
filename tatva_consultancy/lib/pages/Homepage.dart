@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:tatva_consultancy/Elements/Appdrawer.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:tatva_consultancy/Elements/counter_item.dart';
 import 'package:tatva_consultancy/Elements/footer.dart';
 import 'package:tatva_consultancy/Elements/our_services_page.dart';
 
@@ -177,7 +178,13 @@ class _HomepageState extends State<Homepage> {
            Column(
               children: getServiceList(),
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 20),
+            Container(
+              child: Center(
+                child: CounterSection(),
+              )
+            ),
+            SizedBox(height: 20),
             Column(
               children: [
                 Text(
